@@ -1,0 +1,369 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #161621;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+header
+{
+    width: 100%;
+    background-color: rgba(0,0,0,.6);
+
+
+}
+
+header ul li
+{
+    list-style: none;
+    display: inline-block;
+
+    
+}
+
+header ul li a
+{
+    display: block;
+    text-decoration: none;
+    color:#D291BC;
+    font-size: 22px;
+    font-family: inherit;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 15px;
+
+}
+
+header ul li a:hover
+{
+    background-color: #DABFDE;
+    
+}
+
+
+.logo img
+{
+    border-radius: 30%;
+    width:4.5%;
+    height: 4%;
+    float: right;
+    height: auto;
+    padding-right: .2%;
+}
+
+.name
+{
+    float: right; 
+    padding-right: 2%;
+    font-family: monospace;
+    color: #FFFFFF;
+    font-size: 22;    
+}
+
+
+.cont
+{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+    
+  
+}
+
+.cont .boxx
+{
+    position: relative;
+    width: 230px;
+    height: 250px;
+    margin: 0 15px;
+    text-align: center;
+    overflow: hidden;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    
+}
+
+.cont .boxx .imgg1,
+.cont .boxx .imgg2,
+.cont .boxx .imgg3,
+.cont .boxx .imgg4,
+.cont .boxx .imgg5
+{
+    position: relative;
+    width: 140%;
+    height: 140%;
+    background: url("../img/ass1.jpeg");
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 0 0 !important;
+    transition: 1s;
+   
+    
+}
+.cont .boxx .imgg2
+{
+    
+    background: url("../img/ass2.jpeg");
+    
+     
+}
+
+.cont .boxx .imgg3
+{
+    
+    background: url("../img/ass3.jpeg");
+     
+}
+
+.cont .boxx .imgg4
+{
+    
+    background: url("../img/ass4.jpeg");
+     
+}
+
+.cont .boxx .imgg5
+{
+    
+    background: url("../img/ass5.jpeg");
+     
+}
+
+
+
+.cont .boxx:hover .imgg1,
+.cont .boxx:hover .imgg2,
+.cont .boxx:hover .imgg3,
+.cont .boxx:hover .imgg4,
+.cont .boxx:hover .imgg5
+{
+    background-position: 50% 0 !important;
+    
+}
+
+
+.cont .boxx .welc
+{
+    position: absolute;
+    align-items: center;
+    top: 20%;
+    left: 15%;
+    width: 70%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.3);
+   
+}
+
+.cont .boxx .welc1
+{
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 103%;
+    height: 100%;
+    background-color: lightpink;
+    transform: skewX(-30deg);
+    transition: .5s ease-in-out;
+    
+    
+}
+
+.cont .boxx:hover .welc1
+{
+    left: -10%;
+   
+    
+}
+
+.cont .boxx .textt
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    color: black;
+    box-sizing: border-box;
+    padding: 25px;
+    z-index: 1000;
+    text-shadow: 5px 5px 10px black;
+    
+    
+}
+
+.cont2
+{
+    
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+   
+  
+}
+
+.cont2 .boxx2
+{
+    position: relative;
+    text-align: center;
+    width: 193px;
+    height: 250px;
+    margin: 0 15px;
+    text-align: center;
+    overflow: hidden;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+   
+    
+}
+
+.cont2 .boxx2 .imgg6,
+.cont2 .boxx2 .imgg7,
+.cont2 .boxx2 .imgg8,
+.cont2 .boxx2 .imgg11,
+.cont2 .boxx2 .imgg9,
+.cont2 .boxx2 .imgg10
+{
+    position: relative;
+    width: 140%;
+    height: 140%;
+    background: url("../img/ass6.jpeg");
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 0 0 !important;
+    transition: 1s;
+    
+    
+}
+
+.cont2 .boxx2 .imgg7
+{
+    
+    background: url("../img/ass7.jpeg");
+     
+}
+
+.cont2 .boxx2 .imgg8
+{
+    
+    background: url("../img/ass8.jpeg");
+     
+}
+
+.cont2 .boxx2 .imgg11
+{
+    background: url("../img/ass13.jpeg");
+}
+
+.cont2 .boxx2 .imgg9
+{
+    
+    background: url("../img/ass9.jpeg");
+     
+}
+
+.cont2 .boxx2 .imgg10
+{
+    
+    background: url("../img/images (2).jpeg");
+     
+}
+
+.cont2 .boxx2:hover .imgg6,
+.cont2 .boxx2:hover .imgg7,
+.cont2 .boxx2:hover .imgg8,
+.cont2 .boxx2:hover .imgg11,
+.cont2 .boxx2:hover .imgg9,
+.cont2 .boxx2:hover .imgg10
+{
+    background-position: 50% 0 !important;
+   
+}
+
+
+.cont2 .boxx2 .welc2
+{
+    position: absolute;
+    align-items: center;
+    top: 13%;
+    left: 15%;
+    width: 70%;
+    height: 75%;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+}
+
+.cont2 .boxx2 .welc12
+{
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 103%;
+    height: 100%;
+    background-color: lightpink;
+    transform: skewX(-30deg);
+    transition: .5s ease-in-out;
+
+}
+
+.cont2 .boxx2:hover .welc12
+{
+    left: -10%;
+    
+    
+}
+
+.cont2 .boxx2 .textt2
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    color: black;
+    box-sizing: border-box;
+    padding: 25px;
+    z-index: 1000;
+    text-shadow: 5px 5px 10px black;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
